@@ -1,0 +1,212 @@
+body {
+
+  margin: 0;
+
+  text-align: center;
+
+  font-family: 'Merriweather', serif;
+
+  font-size: 1rem;
+
+  color: #40514E;
+}
+
+h1 {
+
+  margin: 50px auto 0 auto;
+
+  font-family: 'Sacramento', cursive;
+
+  font-size: 5.625rem;
+
+  color: #66BFBF;
+
+  text-decoration: underline;
+
+}
+
+h2 {
+
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 2.5rem;
+
+  font-weight: bolder;
+
+  color: #66BFBF;
+
+}
+
+h3 {
+
+  font-family: 'Montserrat', sans-serif;
+
+  color: #11999E;
+}
+/**********************************DIVISION CLASSES**********************************/
+.topcontainer{
+
+  background-color: #e4f9f5;
+
+  margin: 0;
+
+  padding-top: 100px;
+
+  position: relative;
+
+
+
+
+}
+
+.middlecontainer {
+
+  background-color: white;
+
+}
+
+.bottomcontainer {
+
+  background-color: #66BFBF;
+
+  padding-top: 60px;
+  padding-bottom: 30px;
+
+}
+
+.top-cloud1 {
+
+  position: absolute;
+
+  top: 50px;
+
+  right: 300px;
+}
+
+/* .top-cloud2 {
+
+  position: absolute;
+
+  top: 150px;
+
+  left: 250px;
+} */
+
+.bottom-cloud1 {
+
+  position: absolute;
+
+  left: 300px;
+
+  bottom: 300px;
+}
+
+/*
+.bottom-cloud2 {
+
+  position: absolute;
+
+  bottom: 275px;
+
+  right: 250px;
+}
+*/
+
+.bird1 {
+
+  position: absolute;
+
+  bottom: 400px;
+
+  right: 250px;
+}
+
+.footer-link {
+
+  color: #11999E;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+.footer-link:hover {
+  color: #Eaf6f6;
+}
+
+.profile {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.code-img {
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.makers-img {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.section-seperater {
+  border-style: dotted none none none;
+  border-color: grey;
+  border-width: 7px;
+  width: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+.contact-message {
+  width: 30%;
+  margin: 40px auto 0 auto;
+}
+
+.myButton {
+	box-shadow: 0 1px 0 0 #f0f7fa;
+	background:linear-gradient(to bottom, #6fd6d6 5%, #66bfbf 100%);
+	background-color:#6fd6d6;
+	border-radius:13px;
+	border:1px solid #123952;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:23px;
+	font-weight:bold;
+	padding:17px 32px;
+	text-decoration:none;
+	text-shadow:1px -1px 0 #5b6178;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #66bfbf 5%, #6fd6d6 100%);
+	background-color:#66bfbf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  padding: 20px 0;
+}
